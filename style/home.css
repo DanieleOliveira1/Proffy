@@ -1,0 +1,72 @@
+.content{
+    display:grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 1fr 8.46rem;
+    grid-template-areas:
+        'top-left top-right'
+        'bottom-left bottom-right'
+
+}
+
+header{
+    grid-area:top-left;
+    margin-top:5rem;
+}
+
+header h2{
+    font-family:'Poppins', sans-serif;
+    font-size:clamp(30px, 6vw,3.6rem);
+    color:var(--base);
+}
+
+#bg{
+    grid-area:top-right;
+    background: url('../assets/home-bg-img.svg') no-repeat;
+    height:35rem;
+    margin-left:7rem;
+}
+
+#textos{
+    justify-content:space-between;
+}
+
+#botoes{
+    display:flex;
+    justify-content: space-between;
+    margin-top:5rem;
+}
+
+button, #button{
+    font-family: archivo;
+    font-size:2.4rem;
+}
+
+button >img{
+    margin-right:2.9rem;
+}
+
+#one{
+    background-color: var(--another-purple);
+    margin-right:1.6rem;
+}
+
+#two{
+    background-color: var(--green);
+}
+
+.total{
+    grid-area:bottom-right;
+    font-family:'Poppins', sans-serif;
+    margin-left:28.5rem;
+    display:flex;
+    flex-direction:inline;
+    font-size:0.8rem;
+    color:var(--base);
+    width:26rem;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.total > img{
+    margin-left:1rem;
+}
