@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Proffy - Formulário</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700&family=Open+Sans:wght@300;400&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./style/global.css">
+    </head>
+    <body>
+        <section class="init">
+            <header>
+                <img src="./assets/Voltar.svg" alt="voltar">
+                <img src="./assets/Proffy.svg" alt="Logo - proffy">
+            </header>
+            <div class="Titulos">
+                <h1>Que incrível que você quer dar aulas.</h1>
+                <h2>O primeiro passo, é preencher esse formulário de inscrição.</h2>
+            </div>
+        </section>
+        
+        <section class="formulario">
+            <form >
+                <fieldset>
+                    <legend>
+                         <h2>Seus dados</h2>
+                    </legend>
+
+                    <div id="separator">
+                        <div></div>
+                    </div>
+
+                    <div class="field-group">
+                        <div class="field">
+                            <label>Nome Completo</label>
+                            <input type="text" id="nomeCompleto">
+                        </div>
+                        
+                        <div class="field">
+                            <label>Link da sua foto </label>
+                            <p> (comece com //http)</p>
+                            <input type="url" id="LinkFoto">
+                        </div>
+                        
+                        <div class="field">
+                             <label>Whatsapp</label>
+                            <p> (somente números)</p>
+                            <input type="numer" id="whatsapp">
+                        </div>
+
+                        <div class="field">
+                            <label>Biografia</label>
+                            <input type="text" id="biografia">
+                        </div>
+                        
+                    </div>
+
+                </fieldset>
+
+                <fieldset>
+                    <h2>Sobre a aula</h2>
+
+                    <div id="separator">
+                        <div></div>
+                    </div>
+                    
+                    <div id="field-group">
+                        <div id="field">
+                            <label>Matéria</label>
+                            <select>
+                                <option value="">Selecione qual você quer ensinar</option>
+                            </select>
+                        </div>
+
+                        <div class="field">
+                            <label>Custo da sua hora por aula</label>
+                            <p>(em R$)</p>
+                            <input type="numer" id="whatsapp">
+                        </div>
+
+                    </div>
+
+                </fieldset>
+
+                <fieldset>
+                    <div id = "titulos">
+                        <h2>Horários disponíveis</h2>
+                        <div id="horario">
+                            <img src="./assets/+.svg" alt="novo horário">
+                            <p>Novo horário</p>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <div id="dia">
+                            <label>Dia da semana</label>
+                            <select>
+                                <option value="">Selecione o dia</option>
+                            </select>
+                        </div>
+                        <div id="das">
+                            <label>Das</label>
+                            <input type="text" id="das-input">
+                        </div>
+                        <div id="ate">
+                            <label>Até</label>
+                            <input type="text" id="ate-input">
+                        </div>
+                    </div>
+                </fieldset>
+
+                <div id="separator">
+                    <div></div>
+                </div>
+
+                <fieldset>
+                    <div id="field-group">
+                        <div id="field">
+                            <img src="./assets/Atenção.svg" alt="atenção">
+                            <p>Importante! Preencha todos os dados</p>
+                        </div>
+                        <button>
+                            Salvar cadastro
+                        </button>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+        <main>
+            
+        </main>
+    </body>
+</html>
