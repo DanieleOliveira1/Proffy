@@ -1,3 +1,9 @@
+body{
+    background: var(--purple);
+    margin: 100px 0px 20px 160px;
+    overflow:hidden;
+}
+
 .content{
     display:grid;
     grid-template-columns: 40% 60%;

@@ -32,14 +32,16 @@ html{
     --base:#D4C2FF;
     --complemento:#A380F6;
 
+    /*shapes*/
+    --01:#FFFFFF;
+    --02:#FAFAFC;
+    --border-color:#E6E6F0;
+
     font-size:62.5%;
 }
 
 body{
     height:100vh;
-    background: var(--purple);
-    margin: 100px 0px 20px 160px;
-    overflow:hidden;
 }
 
 button, #button{
